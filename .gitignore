@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Environment & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Data & models
+data/chroma/
+data/processed/
+*.bin
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Tests & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/

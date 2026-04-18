@@ -1,0 +1,94 @@
+{
+  "company": "MetriSmart (fictional demonstration company)",
+  "products": [
+    {
+      "ref": "MS-MONO-100",
+      "name": "MetriSmart Mono 100",
+      "category": "Compteur monophasé résidentiel",
+      "description": "Compteur électrique intelligent monophasé 230V pour usage résidentiel. Classe 1. Communication PLC G3 et RF 868 MHz. Certifié MID Annexe MI-003.",
+      "specs": {
+        "tension_nominale": "230 V",
+        "courant_base": "10 A",
+        "courant_max": "100 A",
+        "frequence": "50 Hz",
+        "precision": "Classe 1 (IEC 62053-21)",
+        "communication": "PLC G3 + RF 868 MHz",
+        "protocoles": "DLMS/COSEM, Wi-SUN",
+        "ip_rating": "IP54",
+        "temperature_fonctionnement": "-25°C à +70°C",
+        "duree_vie_batterie": "15 ans"
+      },
+      "features": [
+        "Relevé automatique 15 minutes",
+        "Détection de fraude (ouverture capot, aimant)",
+        "Coupure à distance",
+        "Affichage LCD multi-tarif",
+        "Port optique IEC 62056-21"
+      ]
+    },
+    {
+      "ref": "MS-TRI-400",
+      "name": "MetriSmart Tri 400",
+      "category": "Compteur triphasé industriel",
+      "description": "Compteur triphasé direct 400V pour PME et bâtiments tertiaires. Mesure active et réactive 4 quadrants. Interface RS485 Modbus pour intégration GTB/GTC.",
+      "specs": {
+        "tension_nominale": "3x230/400 V",
+        "courant_base": "5 A",
+        "courant_max": "100 A",
+        "frequence": "50 Hz",
+        "precision": "Classe 0.5S active / Classe 2 réactive",
+        "communication": "RS485 Modbus RTU + Ethernet TCP/IP",
+        "mesures": "Active, réactive, apparente, cos φ, THD",
+        "memoire": "Courbe de charge 1 an @ 15 min",
+        "ip_rating": "IP51",
+        "montage": "Rail DIN 7 modules"
+      },
+      "features": [
+        "4 quadrants énergie",
+        "Détection de défaut neutre",
+        "Module GPRS/4G optionnel",
+        "Entrées/sorties programmables"
+      ]
+    },
+    {
+      "ref": "MS-PREPAY-30",
+      "name": "MetriSmart Prépayé 30",
+      "category": "Compteur prépayé résidentiel",
+      "description": "Compteur monophasé prépayé avec recharge par clavier ou STS token. Adapté aux déploiements ruraux et sites isolés.",
+      "specs": {
+        "tension_nominale": "230 V",
+        "courant_max": "60 A",
+        "standard_token": "STS (IEC 62055-41)",
+        "saisie": "Clavier 16 touches",
+        "affichage": "LCD rétroéclairé 2 lignes",
+        "alarme_credit_bas": "Configurable (défaut: 5 kWh)"
+      },
+      "features": [
+        "Recharge STS 20 chiffres",
+        "Crédit d'urgence",
+        "Historique des 10 derniers rechargements",
+        "Plombage anti-fraude"
+      ]
+    },
+    {
+      "ref": "MS-CONC-500",
+      "name": "MetriSmart Concentrator DC-500",
+      "category": "Concentrateur de données",
+      "description": "Concentrateur de données pour infrastructure AMI. Gère jusqu'à 500 compteurs via PLC G3 et remonte vers le HES via 4G/Ethernet.",
+      "specs": {
+        "compteurs_geres": "500 max",
+        "uplink": "4G LTE Cat-4 + Ethernet 10/100",
+        "downlink": "PLC G3 + RF 868 MHz mesh",
+        "protocoles": "DLMS/COSEM, IEC 61968-9",
+        "stockage": "32 GB eMMC",
+        "alimentation": "85-265 V AC, UPS batterie 2h"
+      },
+      "features": [
+        "Firmware OTA",
+        "VPN IPsec vers HES",
+        "Diagnostic réseau automatique",
+        "API REST pour supervision"
+      ]
+    }
+  ]
+}
